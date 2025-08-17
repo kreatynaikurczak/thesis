@@ -40,7 +40,6 @@
       \field{month}{2}
       \field{title}{Bubble sort}
       \field{year}{2015}
-      \true{nocite}
       \verb{urlraw}
       \verb http://mathbits.com/MathBits/CompSci/Arrays/Bubble.htm
       \endverb
@@ -119,7 +118,6 @@
       \field{month}{2}
       \field{title}{Mechanika Kwantowa}
       \field{year}{2015}
-      \true{nocite}
       \verb{urlraw}
       \verb http://poradnia.pwn.pl/lista.php?id=1528
       \endverb
