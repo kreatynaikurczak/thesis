@@ -1,0 +1,133 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{url:cpp-bubble-sort}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=49845ece64bf772efa98981db7824c72}{%
+           family={MathBits.com},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{49845ece64bf772efa98981db7824c72}
+      \strng{fullhash}{49845ece64bf772efa98981db7824c72}
+      \strng{fullhashraw}{49845ece64bf772efa98981db7824c72}
+      \strng{bibnamehash}{49845ece64bf772efa98981db7824c72}
+      \strng{authorbibnamehash}{49845ece64bf772efa98981db7824c72}
+      \strng{authornamehash}{49845ece64bf772efa98981db7824c72}
+      \strng{authorfullhash}{49845ece64bf772efa98981db7824c72}
+      \strng{authorfullhashraw}{49845ece64bf772efa98981db7824c72}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Bubble sort}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://mathbits.com/MathBits/CompSci/Arrays/Bubble.htm
+      \endverb
+      \verb{url}
+      \verb http://mathbits.com/MathBits/CompSci/Arrays/Bubble.htm
+      \endverb
+    \endentry
+    \entry{book:test2}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b342af989061dd325f5310d9acdf2393}{%
+           family={Stal},
+           familyi={S\bibinitperiod},
+           given={Leopold},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b342af989061dd325f5310d9acdf2393}
+      \strng{fullhash}{b342af989061dd325f5310d9acdf2393}
+      \strng{fullhashraw}{b342af989061dd325f5310d9acdf2393}
+      \strng{bibnamehash}{b342af989061dd325f5310d9acdf2393}
+      \strng{authorbibnamehash}{b342af989061dd325f5310d9acdf2393}
+      \strng{authornamehash}{b342af989061dd325f5310d9acdf2393}
+      \strng{authorfullhash}{b342af989061dd325f5310d9acdf2393}
+      \strng{authorfullhashraw}{b342af989061dd325f5310d9acdf2393}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Słowa i czyny}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{book:test1}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=07b3524b42f7ca0700732c7ac018483a}{%
+           family={Świerk},
+           familyi={Ś\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod}}}%
+      }
+      \strng{namehash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{fullhash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{fullhashraw}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{bibnamehash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{authorbibnamehash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{authornamehash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{authorfullhash}{07b3524b42f7ca0700732c7ac018483a}
+      \strng{authorfullhashraw}{07b3524b42f7ca0700732c7ac018483a}
+      \field{sortinit}{Ś}
+      \field{sortinithash}{fe7d139ff25af1da92945fcf3e00cef5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Świerszcze w żółci}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{url:wiki-mechanika-kwantowa}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Mechanika Kwantowa}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://poradnia.pwn.pl/lista.php?id=1528
+      \endverb
+      \verb{url}
+      \verb http://poradnia.pwn.pl/lista.php?id=1528
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

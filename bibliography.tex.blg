@@ -1,0 +1,5 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'bibliography.tex.blg'
+[220] biber-MSWIN64:342> INFO - === 
+[1007] Utils.pm:479> ERROR - Cannot find 'bibliography.tex.bcf'!
+[1008] Biber.pm:137> INFO - ERRORS: 1

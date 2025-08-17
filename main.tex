@@ -1,0 +1,89 @@
+\documentclass[male, authorStatement, indexNumber, fileVersion, keywords, thanks]{lib/uekthesis}
+\usepackage{lib/uekthesis}
+
+
+%##############################################################################
+% Zmienne Globalne !!! - ważne by kodowanie UTF-8 było wstawione przed nimi
+%
+% To zmiennne do modyfikacji przez użytkownika
+%
+\globalFullAuthor{Gabriela Kupiec}                      % Pełna nazwa autora pracy
+\globalShortAuthor{G.\ Kupiec}                     % Autor - zwięzła forma wydruku
+\globalFullTitle{Współczesne wyzwania w pracy menadżera \\[2mm]projektów IT }  % Pełny tytuł pracy
+\globalShortTitle{Praca dyplomowa w systemie LaTeX}       % Krótki, zwięzły tytuł pracy
+\globalFullUniversity{Uniwersytet Ekonomiczny w Krakowie} % Pełna nazwa uniwersytetu
+\globalShortUniversity{UEK}                           % Skrócona nazwa uniwersytetu
+\globalDepartment{Kolegium Nauk o Zarządzaniu i Jakości \\[2mm]Katedra Procesu Zarządzania}                % Wydział
+\globalDegreeprogramme{Zarządanie projektami}         % Kierunek studiów
+\globalThesisType{Praca dyplomowa}                    % Typ pracy dyplomowej
+\globalUnderTheSupervisonOf{Pod kierunkiem}
+\globalSupervisor{dr Krzysztof Woźniak}  % Promotor
+\globalAcknowledgements{Dla moich rodziców oraz najbliższych przyjaciół za niezłomną wiarę w~moje zwycięstwo.}   % Podziękowania
+\globalFileVersion{0.1.0}   % wersja pliku
+\globalIndexNumber{123456}  % wersja pliku
+\globalCity{Kraków}         % miasto
+\globalYear{2025}           % rok powstania pracy
+\globalKeywords{nauka, komputery, praca dyplomowa, latex, uczelnia, student} % słowa kluczowe dla pracy
+
+%##############################################################################
+% Dołączenie pliku bibliografii zgodnej z Biblatex
+\addbibresource{bibliography.bib}
+
+%##############################################################################
+% dodatkowe pakiety
+\usepackage{chemfig} % wzory chemiczne
+
+% Lista słów (dzielenia je, lub nie)
+\hyphenation{LaTeX latex LaTeXu}
+
+%##############################################################################
+% Koniec preambuły i rozpoczęcie treści właściwej dokumentu
+\begin{document}
+\nocite{*}
+
+\titlepages
+\tableofcontents
+\clearpage
+
+% Tu umieszczamy rozdziały w porządanej kolejności 
+\include{chapters/chap0}
+\include{chapters/chap1}
+\include{chapters/chap2}
+\include{chapters/chap3}
+
+% Załączniki
+% \appendix
+% \include{dodatekA}
+% \include{dodatekB}
+% itd.
+
+%##############################################################################
+% Poniżej odnajdziesz spisy dołączane do dokumentu (w tym do spisu treści).
+% Jesli nie chcesz wykorszystać któregoś z nich w pracy, zakomentuj go 
+% (znakiem procenta % na początku linii)
+
+% Bibliografia
+\clearpage
+\printbibliography[heading=bibintoc]
+ 
+% Spis tabel
+\clearpage
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+% Spis rysunków
+\clearpage
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+% Spis kodów źródłowych
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\lstlistlistingname}
+% \lstlistoflistings
+
+\end{document}
